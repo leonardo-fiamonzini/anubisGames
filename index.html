@@ -4,6 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anubis Games</title>
+    <style>
+     .produtos{
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .produtos h1{
+            color: #ffffff;
+        }
+
+        .grid{
+            position: relative;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .item{
+            position: relative;
+            background-color: #ffd000;
+            color: #050c31;
+            border: 1px solid #000000;
+            border-radius: 1em;
+            margin: 1rem;
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .imagem-produto{
+            position: relative;
+            width: 80%;
+            height: 80%;
+        }   
+    </style> 
+
 </head>
 <body>
     <h1>Anubis Games|Loja de Jogos Eletronicos</h1>
@@ -14,3 +57,45 @@
         Na Anubis Games, você encontra não apenas jogos, mas também acessórios e merchandise relacionados, tudo para enriquecer sua experiência gamer. </p>
 </body>
 </html>
+
+<div class="produtos">
+    <h1>Nossos Produtos</h1>
+    <div class="grid">
+        <div class="item">
+            <h2>Grand Theft Auto 5</h2>
+            <img class="imagem-produto" src="gta-v.webp">
+            <p>Tamanho: 120gb</p>
+            <p>Preço: R$109,89</p>
+        </div>
+        <div class="item">
+            <h2>Red Dead Redemption</h2>
+            <img class="imagem-produto" src="img/teste.png">
+            <p>Tamanho:12gb </p>
+            <p>Preço: R$250,00</p>
+        </div>
+        <div class="item">
+            <h2>Black myth Wukong</h2>
+            <img class="imagem-produto" src="img/teste.png">
+            <p>Tamanho:130gb </p>
+            <p>Preço: R$230,00</p>
+        </div>
+        <div class="item">
+            <h2>God of War: Ragnarok</h2>
+            <img class="imagem-produto" src="img/teste.png">
+            <p>Tamanho:190gb </p>
+            <p>Preço: R$299,99</p>
+        </div>
+        <div class="item">
+            <h2>Minecraft</h2>
+            <img class="imagem-produto" src="img/teste.png">
+            <p>Tamanho: 1gb</p>
+            <p>Preço: R$139,99</p>
+        </div>
+        <div class="item">
+            <h2>Elden Ring</h2>
+            <img class="imagem-produto" src="img/teste.png">
+            <p>Tamanho:60gb </p>
+            <p>Preço: R$387,50</p>
+        </div>
+    </div>
+</div>
